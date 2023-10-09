@@ -59,7 +59,11 @@ HEAD -- это голова.
 <untracked, staged, tracked, modified>
 
 ```mermaid
-%% описание схемы
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
 ```
 
-<и тут пустая строка!>
+
